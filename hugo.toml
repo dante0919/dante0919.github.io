@@ -1,0 +1,31 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Share"
+copyright = ""
+theme = "npq-hugo"
+pygmentsUseClasses=true
+
+[params]
+  author = "Dante Chen"
+  description = "An c# coder"
+  keywords = "hugo blog"
+  useAvatar = true
+  microBlogSection = "posts"
+  displayMicroBlog = true
+  displayRecent = true
+  recentMax = 4
+  mail = "dantechen0919@gmail.com"  
+  formspreeID = "yourformspreeID"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class=\"fas fa-home fa-sm\"></i>"
+    url = "/"
+    weight = -9 
+  [[menu.main]]
+    name = "Blog"
+    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
+    url = "/blog/"
+    weight = -8
+  
