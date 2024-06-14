@@ -4,15 +4,20 @@
     <title>Share</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Share</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 14 Jun 2024 15:21:30 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>get in touch</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description>&#xD;Send&#xD;</description>
+      <title>How do I fix the issue of a white blank screen showing before MainWindow is loaded</title>
+      <link>http://localhost:1313/posts/blankview-shown-mainwindow/</link>
+      <pubDate>Fri, 14 Jun 2024 15:21:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/posts/blankview-shown-mainwindow/</guid>
+      
+      <description>How do I fix the issue of a white blank screen showing before MainWindow is loaded? I have encountered an issue where our MainWindow displays a completely white screen for 1 to 2 seconds before all components are rendered. Our clients find this white screen unacceptable, so I was tasked with fixing this issue. I googled many keywords and only got one effective scenario:
+WindowStyle =None, AllowsTransparency =true, Background = new SolidColorBrush(Colors.</description>
+      
     </item>
+    
   </channel>
 </rss>

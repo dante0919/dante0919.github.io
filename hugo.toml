@@ -1,31 +1,60 @@
 baseURL = "https://dante0919.github.io/"
-languageCode = "en-us"
+defaultContentLanguage = "en-gb"
 title = "Share"
 copyright = ""
-theme = "npq-hugo"
-pygmentsUseClasses=true
+theme = "hugo-blog-awesome"
 
-[params]
-  author = "Dante Chen"
-  description = "An c# coder"
-  keywords = "hugo blog"
-  useAvatar = true
-  microBlogSection = "posts"
-  displayMicroBlog = true
-  displayRecent = true
-  recentMax = 4
-  mail = "dantechen0919@gmail.com"  
-  formspreeID = "yourformspreeID"
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "<i class=\"fas fa-home fa-sm\"></i>"
-    url = "/"
-    weight = -9 
-  [[menu.main]]
-    name = "Blog"
-    pre = "<i class=\"fas fa-keyboard fa-ms\"></i>"
-    url = "/blog/"
-    weight = -8
+[Languages.en-gb]
+  languageName = "English"
+  languageCode = "en-gb"
   
+  weight = 1
+
+  [Languages.en-gb.menu]
+  [[Languages.en-gb.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+[Languages.en-gb.params]
+  sitename = "Blogs of Dante Chen"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
+  # You can take a look at layouts/index.html for more information.
+  description = "Minimal Hugo blog theme with light and dark mode support"
+  mainSections = ['posts']
+  toc = true # set to false to disable table of contents 'globally'
+  tocOpen = false # set to true to open table of contents by default
+  goToTop = true # set to false to disable 'go to top' button
+ 
+  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  # Your custom scripts will be concatenated to one file `custom.js`.
+  # When building for production it will be minified.
+  # The file `custom.js` is loaded on each page (before body tag ends).
+  dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+  # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
+  rssFeedDescription = "summary" # available options: 1) summary 2) full
+  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
+  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
+  # By default (or if nothing is specified), summary is used.
+
+[Languages.en-gb.params.author]
+  avatar = "avatar.png" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Blogs of Dante Chen"
+  name = "Dante Chen"
+  description = "Welcome to our site, where you can explore and share scenarios of unusual problems and technical insights. If you have any questions, please send an email to dantechen0919@gmail.com."
+
+
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"

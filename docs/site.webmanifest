@@ -1,0 +1,20 @@
+{
+    "name": "Blogs of Dante Chen",
+    "short_name": "Blogs of Dante Chen",
+    "start_url": "https://dante0919.github.io/",
+    "theme_color": "#434648",
+    "background_color": "#131418",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

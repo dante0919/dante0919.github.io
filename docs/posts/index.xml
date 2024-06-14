@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Share</title>
+    <link>https://dante0919.github.io/posts/</link>
+    <description>Recent content in Posts on Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Fri, 14 Jun 2024 15:21:30 +0800</lastBuildDate><atom:link href="https://dante0919.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do I fix the issue of a white blank screen showing before MainWindow is loaded</title>
+      <link>https://dante0919.github.io/posts/blankview-shown-mainwindow/</link>
+      <pubDate>Fri, 14 Jun 2024 15:21:30 +0800</pubDate>
+      
+      <guid>https://dante0919.github.io/posts/blankview-shown-mainwindow/</guid>
+      
+      <description>How do I fix the issue of a white blank screen showing before MainWindow is loaded? I have encountered an issue where our MainWindow displays a completely white screen for 1 to 2 seconds before all components are rendered. Our clients find this white screen unacceptable, so I was tasked with fixing this issue. I googled many keywords and only got one effective scenario:
+WindowStyle =None, AllowsTransparency =true, Background = new SolidColorBrush(Colors.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
